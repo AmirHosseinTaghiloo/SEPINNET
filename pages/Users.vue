@@ -80,7 +80,7 @@
 import { ref, reactive, computed, onMounted, watch } from 'vue';
 import * as XLSX from 'xlsx'; // استفاده از کتابخانه برای خروجی اکسل
 
-const baseURL = 'http://185.44.112.7:5000';
+const baseURL = 'http://185.:5000';
 const toast = useToast();
 
 const users = ref([]);
@@ -156,7 +156,7 @@ const fetchUsers = async () => {
     const response = await $fetch(`${baseURL}/server/get-users-list/?${params.toString()}`, {
       method: 'GET',
       headers: {
-        'X-Api-Key': '93c8b887-afb4-46a2-9398-aa88f635cafb',
+        'X-Api-Key': '',
         'Authorization': `Bearer ${accessToken}`,
       },
     });
