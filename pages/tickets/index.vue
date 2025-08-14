@@ -71,7 +71,7 @@ import { useRouter } from 'vue-router'; // برای ناوبری به تیکت�
 
 const router = useRouter();
 
-const baseURL = "http://185.44.112.7:5000";
+const baseURL = "http://185.:5000";
 
 const tickets = ref([]);
 const isLoading = ref(false);
@@ -103,7 +103,7 @@ const fetchTickets = async () => {
       {
         headers: {
           Authorization: `Bearer ${accessToken}`,
-          "X-Api-Key": "93c8b887-afb4-46a2-9398-aa88f635cafb",
+          "X-Api-Key": "",
         },
       }
     );
