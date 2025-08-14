@@ -2,7 +2,7 @@
 
 # SEPINNET - اولین پروژه رسمی شرکت سپین نت
 
-این پروژه اولین قدم رسمی شرکت **سپین نت** در مسیر توسعه‌ی نرم‌افزارهای کاربردی بوده و با هدف تست و استفاده‌ی داخلی طراحی شده است.
+این پروژه اولین قدم رسمی شرکت **سپین نت** در مسیر آزمایش و گرفتن تست فرانت اند دولوپر از بنده است .
 
 ## 🎯 هدف پروژه
 ایجاد یک رابط کاربری ساده برای تعامل با APIهای بک‌اند، شامل:
@@ -29,7 +29,7 @@
 ---
 # SEPINNET - First Official Project by SepinNet Company
 
-This project marks the **first official release** by **SepinNet**, developed primarily for internal use and testing purposes.
+This project is Spinnet's first official step towards testing and getting front-end developer testing from me.
 
 ## 🎯 Project Purpose
 A simple frontend interface designed to interact with backend APIs, including:
