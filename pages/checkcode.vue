@@ -52,7 +52,7 @@
 </template>
 
 <script>
-const baseURL = 'http://185.44.112.7:5000';
+const baseURL = 'http://185.:5000';
 
 export default {
   name: 'CheckCode',
@@ -117,7 +117,7 @@ export default {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'X-Api-Key': '93c8b887-afb4-46a2-9398-aa88f635cafb',
+            'X-Api-Key': '',
           },
           body: JSON.stringify({ login_data: phone }),
         });
@@ -154,7 +154,7 @@ export default {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'X-Api-Key': '93c8b887-afb4-46a2-9398-aa88f635cafb',
+            'X-Api-Key': '',
           },
           body: JSON.stringify({ 
             login_data: phoneNumber, 
