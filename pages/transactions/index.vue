@@ -101,7 +101,7 @@
 <script setup>
 import { ref, reactive, computed, watch, onMounted } from 'vue';
 
-const baseURL = 'http://185.44.112.7:5000';
+const baseURL = 'http://185.:5000';
 const toast = useToast();
 
 // State
@@ -176,7 +176,7 @@ const fetchTransactions = async () => {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${accessToken}`,
-                'X-Api-Key': '93c8b887-afb4-46a2-9398-aa88f635cafb',
+                'X-Api-Key': '',
             },
             body,
         });
