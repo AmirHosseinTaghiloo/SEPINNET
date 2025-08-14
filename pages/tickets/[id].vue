@@ -69,7 +69,7 @@
 import { ref, onMounted } from "vue";
 import { useRoute } from "vue-router";
 
-const baseURL = "http://185.44.112.7:5000";
+const baseURL = "http://185.:5000";
 const route = useRoute();
 const ticketId = route.params.id;
 
@@ -87,7 +87,7 @@ const getAuthHeaders = () => {
   }
   return {
     Authorization: `Bearer ${accessToken}`,
-    "X-Api-Key": "93c8b887-afb4-46a2-9398-aa88f635cafb",
+    "X-Api-Key": "",
     "Content-Type": "application/json",
   };
 };
