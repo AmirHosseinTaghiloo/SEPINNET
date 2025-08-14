@@ -1,6 +1,59 @@
-# Nuxt Minimal Starter
+#Nuxt-Project
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# SEPINNET - اولین پروژه رسمی شرکت سپین نت
+
+این پروژه اولین قدم رسمی شرکت **سپین نت** در مسیر توسعه‌ی نرم‌افزارهای کاربردی بوده و با هدف تست و استفاده‌ی داخلی طراحی شده است.
+
+## 🎯 هدف پروژه
+ایجاد یک رابط کاربری ساده برای تعامل با APIهای بک‌اند، شامل:
+
+- دریافت API برای صفحه لاگین و رمز یکبار مصرف
+- دریافت لیست مخاطبین
+- ارسال تیکت به پشتیبانی و امکان بستن آن
+- بررسی پیام‌های دریافتی از مخاطبین
+
+## ⚙️ ویژگی‌ها
+
+- ارتباط با بک‌اند از طریق API
+- پیاده‌سازی صفحه لاگین با رمز یک‌بار مصرف (OTP)
+- نمایش لیست مخاطبین
+- سیستم ارسال و مدیریت تیکت‌های پشتیبانی
+- بررسی پیام‌های مخاطبین
+
+## 🎨 طراحی رابط کاربری
+این پروژه صرفاً برای استفاده‌ی داخلی توسعه داده شده و تمرکز اصلی آن بر عملکرد بوده است، نه طراحی ظاهری. بنابراین ظاهر گرافیکی آن ساده و ابتدایی است.
+
+## 🏗 وضعیت پروژه
+پروژه در حال حاضر به عنوان نمونه‌ی اولیه (Prototype) مورد استفاده قرار گرفته و ممکن است در آینده توسعه یابد.
+
+---
+# SEPINNET - First Official Project by SepinNet Company
+
+This project marks the **first official release** by **SepinNet**, developed primarily for internal use and testing purposes.
+
+## 🎯 Project Purpose
+A simple frontend interface designed to interact with backend APIs, including:
+
+- API integration for login and one-time password (OTP)
+- Fetching contact list
+- Sending support tickets and closing them
+- Checking messages from contacts
+
+## ⚙️ Features
+
+- API-based communication with backend services
+- Login page with OTP functionality
+- Displaying a list of contacts
+- Support ticket submission and management
+- Viewing incoming messages from users
+
+## 🎨 UI Design
+This project was built solely for functional use and internal testing. As such, **no focus was placed on visual design**, and the interface is minimal and utilitarian.
+
+## 🏗 Project Status
+Currently used as a prototype for internal operations. Future improvements and UI enhancements may be considered.
+
+---
 
 ## Setup
 
